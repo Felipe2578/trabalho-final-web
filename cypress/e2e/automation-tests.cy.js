@@ -99,7 +99,7 @@ describe('Automation Exercise', () => {
 
     });
     //Test 15
-    it.only('Adicionar produtos ao carrinho', () => {
+    it('Adicionar produtos ao carrinho', () => {
         login.preencherFormularioDePreCadastro()
         cadastro.preencherFormularioDeCadastroCompleto()
         carrinho.adicionandoProdutoAoCarrinho()
